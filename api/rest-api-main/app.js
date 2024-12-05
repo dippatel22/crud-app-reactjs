@@ -11,7 +11,7 @@ const fileUpload = require('express-fileupload');
 
 
 
-mongoose.connect('mongodb+srv://deeppatel:deeppatel123@cluster0.1uk58xh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{useNewUrlParser:true, useUnifiedTopology: true});
+mongoose.connect('',{useNewUrlParser:true, useUnifiedTopology: true});
 
 
 mongoose.connection.on('error',err=>{
